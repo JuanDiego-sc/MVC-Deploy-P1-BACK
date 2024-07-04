@@ -10,7 +10,7 @@ Github Frontend:
 Deploy: 
 
 ### Referencias: 
-[Http Get nad Post in C#](https://www.youtube.com/watch?v=Yi-O-HBGPeU)
-[Github](https://github.com/CHACHO617/)
+- [Http Get nad Post in C#](https://www.youtube.com/watch?v=Yi-O-HBGPeU)
+- [Github](https://github.com/CHACHO617/)
 
 
