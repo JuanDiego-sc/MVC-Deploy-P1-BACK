@@ -11,6 +11,5 @@ Deploy:
 
 ### Referencias: 
 - [Http Get nad Post in C#](https://www.youtube.com/watch?v=Yi-O-HBGPeU)
-- [Github](https://github.com/CHACHO617/)
-
-
+- [React with .NET Web API – Basic App Tutorial](https://www.youtube.com/watch?v=4RKuyp_bOhY&t=41s)
+- [Proyectos Anteriores C#](https://github.com/CHACHO617/)
