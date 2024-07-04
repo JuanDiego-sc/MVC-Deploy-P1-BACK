@@ -13,7 +13,7 @@ namespace MiniCoreEnriqueMerizalde.Controllers
         {
             _dbcontext = dbcontext;
         }
-
+        //
         [HttpGet]
         [Route("GetTareas")]
         public async Task<ActionResult<IEnumerable<Tarea>>> GetTarea()
