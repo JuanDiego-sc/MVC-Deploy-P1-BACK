@@ -16,10 +16,10 @@ namespace MiniCoreEnriqueMerizalde.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "6.0.31")
+                .HasAnnotation("ProductVersion", "9.0.0")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
-            SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
+            SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
             modelBuilder.Entity("MiniCoreEnriqueMerizalde.Models.Empleado", b =>
                 {
@@ -27,7 +27,7 @@ namespace MiniCoreEnriqueMerizalde.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id_Empleado"), 1L, 1);
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id_Empleado"));
 
                     b.Property<string>("Apellido_Empleado")
                         .IsRequired()
@@ -48,7 +48,7 @@ namespace MiniCoreEnriqueMerizalde.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id_Proyecto"), 1L, 1);
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id_Proyecto"));
 
                     b.Property<string>("Nombre_Proyecto")
                         .IsRequired()
@@ -65,7 +65,7 @@ namespace MiniCoreEnriqueMerizalde.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id_Tarea"), 1L, 1);
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id_Tarea"));
 
                     b.Property<string>("Descripcion_Tarea")
                         .IsRequired()
